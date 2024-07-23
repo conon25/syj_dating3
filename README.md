@@ -1,9 +1,7 @@
-syj_dating3<br/>
+syj_dating3 - Flutter app and spring-cloud micro service<br/>
 ===========
-Flutter app and spring-cloud micro service<br/>
---------------------------------
-# 주요기능<br/><br/>
 
+# 주요기능
 ## 로그인
 <br/>
 <img
