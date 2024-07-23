@@ -14,6 +14,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 구글 계정으로 로그인합니다. 로그인 성공시 구글에서 ID토큰을 발급받고 이 토큰을 이용해서 로그인합니다. 서버에서 토큰이 유효한지 검증하고 새로운 JWT토큰을 부여받습니다.
 
 <br/>
+
 ### 회원 가입
 
 <img
@@ -28,6 +29,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 구글 계정으로 로그인하여 회원가입하고 프로필 정보만 작성합니다.
 
 <br/>
+
 ### 전화번호 인증
 
 <img
