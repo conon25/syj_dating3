@@ -1,6 +1,5 @@
 # syj_dating3
-Flutter app and spring-cloud API server
-https://velog.io/@couchcoding/Firebase%EB%A1%9C-Google-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-Spring-%ED%8C%8C%ED%8A%B8
+Flutter app and spring-cloud msa
 주요기능
 
 친구찾기:
