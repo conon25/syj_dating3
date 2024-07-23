@@ -77,28 +77,27 @@ syj_dating3 - Flutter app and spring-cloud micro services
 <br/>
 
 ### 프로필 상세
-<br/>
 <img
   src="./profile.jpg"
   width="216"
   height="468"
 />
-
-<br/>
-
 #### 프로필 수정
 * 내 프로필을 조회하고 수정합니다.
 
 <br/>
 
 ### 내 근처 친구찾기 리스트
-<br/>
 <img
   src="./around_list_page.jpg"
   width="216"
   height="468"
 />
-
+#### 위치 권한 허용 및 내 위치 lat long 가져오기
+* 위치 권한을 허용하면 내 기기 위치의 lat long을 측정합니다.
+* lat long 값을 기반으로 근처 사용자의 리스트를 보여줍니다.
+#### reverse geocoding으로 지역명 표시
+* 구글 맵 API를 사용하여 지역명을 표시합니다.
 <br/>
 
 ### 프로필 선택 및 좋아요 보내기
@@ -107,6 +106,11 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
+#### 좋아요 보내기
+* 받은 좋아요 목록에 없는상대, 현재 채팅중이 아닌 상대, 보낸 좋아요 목록에 없는 상대 조건을 충족해야 좋아요를 보낼 수 있습니다.
+* socket연결을 통해 실시간으로 좋아요 메세지를 보내며 알림 권한을 허용한 기기에는 FCM을 통해 Notification을 표시합니다.
+* 네트워크 오류로 연결이 끊기면 연결을 재시도합니다
+<br/>
 
 ### 받은 좋아요 리스트
 <img
@@ -114,6 +118,10 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
+#### 좋아요 메시지 수신
+* 포그라운드 상태일때 socket연결을 통해 실시간으로 좋아요 메세지를 받습니다. 백그라운드 상태일때는 연결이 끊기므로 앱이 resume 될때 DB에서 내역을 불러옵니다.
+* FCM을 통해 앱이 백그라운드 및 절전모드에 있어도 좋아요 Notification을 표시합니다.
+<br/>
 
 ### 좋아요 받기
 <img
@@ -121,6 +129,9 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
+#### 좋아요 받기
+* 현재 대화중이 아닌 상대일 경우 채팅방을 생성합니다.
+<br/>
 
 ### 채팅방 리스트와 채팅방 개설
 <img
@@ -128,60 +139,61 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
+#### 채팅방 생성
+* 상대에게 socket 및 fcm을 통해 채팅방 생성을 알리는 메세지를 보냅니다.
+<br/>
 
 ### 친구와 채팅
-<br/>
 <img
   src="./chat_page.jpg"
   width="216"
   height="468"
 />
+
 <br/>
 
 ### 채팅방 나가기
-<br/>
 <img
   src="./chat_page_exit.jpg"
   width="216"
   height="468"
 />
+
 <br/>
 
 ### 매력평가 하기
-<br/>
 <img
   src="./attraction_rating_page2.jpg"
   width="216"
   height="468"
 />
+
 <br/>
 
 ### 친구 프로필 상세 페이지에서 매력 평가하기
-<br/>
 <img
   src="./attraction_rating_detail_profile_page.jpg"
   width="216"
   height="468"
 />
+
 <br/>
 
-매력평가할 프로필 대기상태
-<br/>
+### 매력평가할 프로필 대기상태
 <img
   src="./attraction_rating_page_waiting2.jpg"
   width="216"
   height="468"
 />
+
 <br/>
 
 ### 불량유저 신고하기
-<br/>
 <img
   src="./report_profile.jpg"
   width="216"
   height="468"
 />
-<br/>
 
 친구찾기:
   온라인 탭: 탭을 열때 현재 동시접속유저 리스트를 가져오고 이후 접속유저는 socket을 통해 수신하여 리스트에 추가한다. (접속을 반복하는 유저가 중복되어 리스트에 추가되지 않도록 처리)
