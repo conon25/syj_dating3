@@ -1,6 +1,6 @@
 # syj_dating3
-Flutter app and spring-cloud msa
-주요기능
+Flutter app and spring-cloud msa<br/>
+주요기능<br/>
 로그인
 <br/>
 <img
@@ -14,6 +14,29 @@ Flutter app and spring-cloud msa
 <br/>
 <img
   src="./agree_service.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+전화번호 인증
+<br/>
+<img
+  src="./phone_check.jpg"
+  width="108"
+  height="234"
+/>
+<img
+  src="./phone_check2.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+회원가입 사진등록
+<br/>
+<img
+  src="./signup_reg_photo.jpg"
   width="108"
   height="234"
 />
