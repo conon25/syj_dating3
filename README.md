@@ -4,14 +4,14 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 로그인
 <img
   src="./intro_login.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 #### 이메일 로그인
 * 회원가입시 등록한 이메일과 비밀번호로 로그인합니다. 로그인에 성공하면 JWT토큰을 부여받아 secure_storage에 저장되어 다음에 앱을 켤때 자동으로 로그인 합니다.
 #### 구글 로그인
-* 구글 계정으로 로그인합니다. 로그인 성공시 구글에서 ID토큰을 발급받고 이 토큰을 이용해서 로그인합니다. 서버에서 토큰이 유효한지 검증하고 새로운 JWT토큰을 부여받습니다.
+* 구글 계정으로 로그인합니다. 로그인 성공시 Firebase_auth를 통해 ID토큰을 발급받고 이 토큰을 이용해서 로그인합니다. 서버에서 ID토큰이 유효한지 검증하고 새로운 JWT토큰을 부여받습니다.
 
 <br/>
 
@@ -19,14 +19,14 @@ syj_dating3 - Flutter app and spring-cloud micro services
 
 <img
   src="./agree_service.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 #### 이메일로 프로필 생성하기
 * 이메일과 비밀번호를 입력하여 계정을 생성합니다. 비밀번호는 SHA512로 암호화 하여 저장됩니다.
 #### 구글계정으로 프로필 생성하기
-* 구글 계정으로 로그인하여 회원가입하고 프로필 정보만 작성합니다.
+* 구글 계정으로 로그인하여 회원가입하고 프로필 정보만 작성합니다. 마지막 회원가입 요청시 유효한 ID토큰인지 검증하고 회원가입을 최종처리합니다.
 
 <br/>
 
@@ -34,27 +34,27 @@ syj_dating3 - Flutter app and spring-cloud micro services
 
 <img
   src="./phone_check.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 <img
   src="./phone_check2.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 #### 인증코드 받기
 * 전화번호를 입력하고 전화번호로 인증번호를 받습니다.
 #### 인증코드 검증하기
-* 유효한 인증번호일 경우 ID토큰을 부여받습니다. 마지막 회원가입 요청시 유효한 ID토큰인지 검증하고 회원가입을 최종처리합니다.
+* 유효한 인증번호일 경우 ID토큰을 부여받습니다.
 
 <br/>
 
 ### 회원가입 사진등록
 <img
   src="./signup_reg_photo.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 사진 업로드하기
 * 카메라및 갤러리에서 사진을 선택하고 업로드합니다.
@@ -64,8 +64,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 내 프로필 설정 및 정보
 <img
   src="./my_profile.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 프로필 보기
 * 내 프로필을 조회하고 수정합니다.
@@ -79,8 +79,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 프로필 상세
 <img
   src="./profile.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 프로필 수정
 * 내 프로필을 조회하고 수정합니다.
@@ -90,11 +90,11 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 내 근처 친구찾기 리스트
 <img
   src="./around_list_page.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 위치 권한 허용 및 내 위치 lat long 가져오기
-* 위치 권한을 허용하면 내 기기 위치의 lat long을 측정합니다.
+* 위치 권한을 허용시 내 기기 위치의 lat long을 측정합니다.
 * lat long 값을 기반으로 근처 사용자의 리스트를 보여줍니다.
 #### reverse geocoding으로 지역명 표시
 * 구글 맵 API를 사용하여 지역명을 표시합니다.
@@ -103,11 +103,11 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 프로필 선택 및 좋아요 보내기
 <img
   src="./profile_detail_sendlike.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 좋아요 보내기
-* 받은 좋아요 목록에 없는상대, 현재 채팅중이 아닌 상대, 보낸 좋아요 목록에 없는 상대 조건을 충족해야 좋아요를 보낼 수 있습니다.
+* 받은 좋아요 목록에 없는상대, 현재 채팅중이 아닌 상대, 보낸 좋아요 목록에 없는 상대 조건을 충족한 상대에게 Like를 보낼 수 있습니다.
 * socket연결을 통해 실시간으로 좋아요 메세지를 보내며 알림 권한을 허용한 기기에는 FCM을 통해 Notification을 표시합니다.
 * 네트워크 오류로 연결이 끊기면 연결을 재시도합니다
 <br/>
@@ -115,19 +115,19 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 받은 좋아요 리스트
 <img
   src="./received_like2.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 좋아요 메시지 수신
-* 포그라운드 상태일때 socket연결을 통해 실시간으로 좋아요 메세지를 받습니다. 백그라운드 상태일때는 연결이 끊긴 상태이므로 앱이 resume 되면 DB에서 내역을 불러옵니다.
+* 포그라운드 상태일때 socket연결을 통해 실시간으로 좋아요 메세지를 받습니다. 백그라운드 상태일때는 socket연결이 끊긴 상태이므로 앱이 resume 되면 DB에서 내역을 불러옵니다.
 * FCM을 통해 앱이 백그라운드 및 절전모드에 있어도 좋아요 Notification이 표시됩니다.
 <br/>
 
 ### 좋아요 받기
 <img
   src="./receivelike.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 좋아요 받기
 * 현재 대화중이 아닌 상대일 경우 채팅방을 생성합니다.
@@ -136,8 +136,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 채팅방 리스트와 채팅방 개설
 <img
   src="./chatroom_list.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 채팅방 생성
 * 상대에게 socket 및 fcm을 통해 채팅방 생성을 알리는 메세지를 보냅니다.
@@ -146,8 +146,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 친구와 채팅
 <img
   src="./chat_page.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 #### 채팅 데이터 송수신 및 이력 저장
 * 채팅방 입장시 socket연결을 수립하고 실시간으로 데이터를 송수신 합니다.
@@ -158,8 +158,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 채팅방 나가기
 <img
   src="./chat_page_exit.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 <br/>
@@ -167,8 +167,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 매력평가 하기
 <img
   src="./attraction_rating_page2.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 <br/>
@@ -176,8 +176,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 친구 프로필 상세 페이지에서 매력 평가하기
 <img
   src="./attraction_rating_detail_profile_page.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 <br/>
@@ -185,8 +185,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 매력평가할 프로필 대기상태
 <img
   src="./attraction_rating_page_waiting2.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 <br/>
@@ -194,8 +194,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 불량유저 신고하기
 <img
   src="./report_profile.jpg"
-  width="216"
-  height="468"
+  width="324"
+  height="702"
 />
 
 친구찾기:
