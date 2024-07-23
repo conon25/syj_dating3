@@ -1,11 +1,23 @@
 # syj_dating3
 Flutter app and spring-cloud msa
 주요기능
+로그인
+<br/>
 <img
-  src="./Screenshot_20240719_161722.jpg"
+  src="./intro_login.jpg"
   width="108"
   height="234"
 />
+<br/>
+
+약관 동의
+<br/>
+<img
+  src="./agree_service.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
 
 친구찾기:
   온라인 탭: 탭을 열때 현재 동시접속유저 리스트를 가져오고 이후 접속유저는 socket을 통해 수신하여 리스트에 추가한다. (접속을 반복하는 유저가 중복되어 리스트에 추가되지 않도록 처리)
