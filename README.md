@@ -99,7 +99,7 @@ Flutter app and spring-cloud msa<br/>
 채팅방 리스트와 채팅방 개설
 <br/>
 <img
-  src="./receivelike.jpg"
+  src="./chatroom_list.jpg"
   width="108"
   height="234"
 />
@@ -109,6 +109,15 @@ Flutter app and spring-cloud msa<br/>
 <br/>
 <img
   src="./chat_page.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+채팅방 나가기
+<br/>
+<img
+  src="./chat_page_exit.jpg"
   width="108"
   height="234"
 />
@@ -145,15 +154,6 @@ Flutter app and spring-cloud msa<br/>
 <br/>
 <img
   src="./report_profile.jpg"
-  width="108"
-  height="234"
-/>
-<br/>
-
-채팅방 나가기
-<br/>
-<img
-  src="./chat_page_exit.jpg"
   width="108"
   height="234"
 />
