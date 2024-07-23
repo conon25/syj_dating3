@@ -94,7 +94,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
   height="702"
 />
 #### 위치 권한 허용 및 내 위치 lat long 가져오기
-* 위치 권한을 허용시 내 기기 위치의 lat long을 측정합니다.
+* 위치 권한을 허용시 앱이 resume될 때 내 기기 위치의 lat long을 측정하고 서버에 저장합니다.
 * lat long 값을 기반으로 근처 사용자의 리스트를 보여줍니다.
 #### reverse geocoding으로 지역명 표시
 * 구글 맵 API를 사용하여 지역명을 표시합니다.
@@ -210,5 +210,5 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="324"
   height="702"
 />
-#### 프로필을 모두 평가했을때
+#### 신고 접수
 * 신고가 접수 되고 신고 내용을 기반으로 해당 사용자 서비스 제한을 검토합니다.
