@@ -1,7 +1,8 @@
 # syj_dating3
 Flutter app and spring-cloud msa
 주요기능
-<img src="./Screenshot_20240719_161722.jpg", height="100x", width="100px">
+
+![poster](./Screenshot_20240719_161722.jpg)
 친구찾기:
   온라인 탭: 탭을 열때 현재 동시접속유저 리스트를 가져오고 이후 접속유저는 socket을 통해 수신하여 리스트에 추가한다. (접속을 반복하는 유저가 중복되어 리스트에 추가되지 않도록 처리)
   근처 탭: 저장된 내 위치 값을 기준으로 주변 유저 리스트를 가져온다.
