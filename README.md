@@ -20,7 +20,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 
 
 ### 전화번호 인증
-<br/>
+
 <img
   src="./phone_check.jpg"
   width="216"
@@ -31,7 +31,6 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
-<br/>
 
 ### 회원가입 사진등록
 <br/>
