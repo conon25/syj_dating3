@@ -6,61 +6,6 @@ Flutter app and spring-cloud msa
   width="108"
   height="234"
 />
-<img
-  src="./Screenshot_20240723_124305.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124310.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124331.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124341.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124354.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124400.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124433.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124505.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124514.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124530.jpg"
-  width="108"
-  height="234"
-/>
-<img
-  src="./Screenshot_20240723_124547.jpg"
-  width="108"
-  height="234"
-/>
 
 친구찾기:
   온라인 탭: 탭을 열때 현재 동시접속유저 리스트를 가져오고 이후 접속유저는 socket을 통해 수신하여 리스트에 추가한다. (접속을 반복하는 유저가 중복되어 리스트에 추가되지 않도록 처리)
