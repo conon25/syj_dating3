@@ -2,7 +2,7 @@
 Flutter app and spring-cloud msa
 주요기능
 <img
-  src="~@source/.vuepress/public/image/Screenshot_20240723_124547.jpg"
+  src="./Screenshot_20240723_124547.jpg"
   width="300"
   height="400"
 />
