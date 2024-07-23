@@ -13,7 +13,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 #### 구글 로그인
 * 구글 계정으로 로그인합니다. 로그인 성공시 구글에서 ID토큰을 발급받고 이 토큰을 이용해서 로그인합니다. 서버에서 토큰이 유효한지 검증하고 새로운 JWT토큰을 부여받습니다.
 
-
+<br/>
 ### 회원 가입
 
 <img
@@ -27,7 +27,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 #### 구글계정으로 프로필 생성하기
 * 구글 계정으로 로그인하여 회원가입하고 프로필 정보만 작성합니다.
 
-
+<br/>
 ### 전화번호 인증
 
 <img
@@ -45,7 +45,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 전화번호를 입력하고 전화번호로 인증번호를 받습니다.
 #### 인증코드 검증하기
 * 인증코드가 유효한지 검증하고 ID토큰은 부여받습니다. 마지막 회원가입 요청시 ID토큰을 검증합니다.
-
+<br/>
 ### 회원가입 사진등록
 <img
   src="./signup_reg_photo.jpg"
@@ -54,7 +54,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 />
 #### 사진 업로드하기
 * 카메라및 갤러리에서 사진을 선택하고 업로드합니다.
-
+<br/>
 ### 내 프로필 설정 및 정보
 <img
   src="./my_profile.jpg"
@@ -67,7 +67,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 설정 앱으로 이동합니다.
 #### 로그아웃
 * secure_storage 및 계정 데이터를 모두 지우고 로그인 페이지로 이동합니다.
-
+<br/>
 ### 프로필 상세
 <br/>
 <img
@@ -78,7 +78,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 <br/>
 #### 프로필 수정
 * 내 프로필을 조회하고 수정합니다.
-
+<br/>
 ### 내 근처 친구찾기 리스트
 <br/>
 <img
