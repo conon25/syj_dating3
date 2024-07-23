@@ -47,7 +47,9 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 전화번호를 입력하고 전화번호로 인증번호를 받습니다.
 #### 인증코드 검증하기
 * 인증코드가 유효한지 검증하고 ID토큰은 부여받습니다. 마지막 회원가입 요청시 ID토큰을 검증합니다.
+
 <br/>
+
 ### 회원가입 사진등록
 <img
   src="./signup_reg_photo.jpg"
@@ -56,7 +58,9 @@ syj_dating3 - Flutter app and spring-cloud micro services
 />
 #### 사진 업로드하기
 * 카메라및 갤러리에서 사진을 선택하고 업로드합니다.
+
 <br/>
+
 ### 내 프로필 설정 및 정보
 <img
   src="./my_profile.jpg"
@@ -69,7 +73,9 @@ syj_dating3 - Flutter app and spring-cloud micro services
 * 설정 앱으로 이동합니다.
 #### 로그아웃
 * secure_storage 및 계정 데이터를 모두 지우고 로그인 페이지로 이동합니다.
+
 <br/>
+
 ### 프로필 상세
 <br/>
 <img
@@ -80,7 +86,9 @@ syj_dating3 - Flutter app and spring-cloud micro services
 <br/>
 #### 프로필 수정
 * 내 프로필을 조회하고 수정합니다.
+
 <br/>
+
 ### 내 근처 친구찾기 리스트
 <br/>
 <img
@@ -88,43 +96,36 @@ syj_dating3 - Flutter app and spring-cloud micro services
   width="216"
   height="468"
 />
+
 <br/>
 
 ### 프로필 선택 및 좋아요 보내기
-<br/>
 <img
   src="./profile_detail_sendlike.jpg"
   width="216"
   height="468"
 />
-<br/>
 
 ### 받은 좋아요 리스트
-<br/>
 <img
   src="./received_like2.jpg"
   width="216"
   height="468"
 />
-<br/>
 
 ### 좋아요 받기
-<br/>
 <img
   src="./receivelike.jpg"
   width="216"
   height="468"
 />
-<br/>
 
 ### 채팅방 리스트와 채팅방 개설
-<br/>
 <img
   src="./chatroom_list.jpg"
   width="216"
   height="468"
 />
-<br/>
 
 ### 친구와 채팅
 <br/>
