@@ -60,6 +60,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 />
 #### 사진 업로드하기
 * 카메라및 갤러리에서 사진을 선택하고 업로드합니다.
+* 최대 6장까지 업로드 가능합니다.
 
 <br/>
 
