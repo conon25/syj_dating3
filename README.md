@@ -1,144 +1,144 @@
-syj_dating3 - Flutter app and spring-cloud micro service<br/>
-===========
+syj_dating3 - Flutter app and spring-cloud micro service
+========================================================
 
 # 주요기능
-## 로그인
+### 로그인
 <br/>
 <img
   src="./intro_login.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 약관 동의
+### 약관 동의
 <br/>
 <img
   src="./agree_service.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 전화번호 인증
+### 전화번호 인증
 <br/>
 <img
   src="./phone_check.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <img
   src="./phone_check2.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 회원가입 사진등록
+### 회원가입 사진등록
 <br/>
 <img
   src="./signup_reg_photo.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 내 프로필 설정 및 정보
+### 내 프로필 설정 및 정보
 <br/>
 <img
   src="./my_profile.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 프로필 상세
+### 프로필 상세
 <br/>
 <img
   src="./profile.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 내 근처 친구찾기 리스트
+### 내 근처 친구찾기 리스트
 <br/>
 <img
   src="./around_list_page.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 프로필 선택 및 좋아요 보내기
+### 프로필 선택 및 좋아요 보내기
 <br/>
 <img
   src="./profile_detail_sendlike.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 받은 좋아요 리스트
+### 받은 좋아요 리스트
 <br/>
 <img
   src="./received_like2.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 좋아요 받기
+### 좋아요 받기
 <br/>
 <img
   src="./receivelike.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 채팅방 리스트와 채팅방 개설
+### 채팅방 리스트와 채팅방 개설
 <br/>
 <img
   src="./chatroom_list.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 친구와 채팅
+### 친구와 채팅
 <br/>
 <img
   src="./chat_page.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 채팅방 나가기
+### 채팅방 나가기
 <br/>
 <img
   src="./chat_page_exit.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 매력평가 하기
+### 매력평가 하기
 <br/>
 <img
   src="./attraction_rating_page2.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 친구 프로필 상세 페이지에서 매력 평가하기
+### 친구 프로필 상세 페이지에서 매력 평가하기
 <br/>
 <img
   src="./attraction_rating_detail_profile_page.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
@@ -146,17 +146,17 @@ syj_dating3 - Flutter app and spring-cloud micro service<br/>
 <br/>
 <img
   src="./attraction_rating_page_waiting2.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
-## 불량유저 신고하기
+### 불량유저 신고하기
 <br/>
 <img
   src="./report_profile.jpg"
-  width="108"
-  height="234"
+  width="216"
+  height="468"
 />
 <br/>
 
