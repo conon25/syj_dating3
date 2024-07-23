@@ -72,7 +72,7 @@ Flutter app and spring-cloud msa<br/>
 프로필 선택 및 좋아요 보내기
 <br/>
 <img
-  src="./around_list_page.jpg"
+  src="./profile_detail_sendlike.jpg"
   width="108"
   height="234"
 />
