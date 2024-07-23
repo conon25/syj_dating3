@@ -2,22 +2,22 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ========================================================
 # 주요기능
 ### 로그인
-<br/>
+
 <img
   src="./intro_login.jpg"
   width="216"
   height="468"
 />
-<br/>
+
 
 ### 서비스 약관 동의
-<br/>
+
 <img
   src="./agree_service.jpg"
   width="216"
   height="468"
 />
-<br/>
+
 
 ### 전화번호 인증
 <br/>
