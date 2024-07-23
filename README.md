@@ -1,6 +1,6 @@
 # syj_dating3
 Flutter app and spring-cloud msa<br/>
-주요기능<br/>
+주요기능<br/><br/>
 로그인
 <br/>
 <img
@@ -37,6 +37,123 @@ Flutter app and spring-cloud msa<br/>
 <br/>
 <img
   src="./signup_reg_photo.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+내 프로필 설정 및 정보
+<br/>
+<img
+  src="./my_profile.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+프로필 상세
+<br/>
+<img
+  src="./profile.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+내 근처 친구찾기 리스트
+<br/>
+<img
+  src="./around_list_page.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+프로필 선택 및 좋아요 보내기
+<br/>
+<img
+  src="./around_list_page.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+받은 좋아요 리스트
+<br/>
+<img
+  src="./received_like2.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+좋아요 받기
+<br/>
+<img
+  src="./receivelike.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+채팅방 리스트와 채팅방 개설
+<br/>
+<img
+  src="./receivelike.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+친구와 채팅
+<br/>
+<img
+  src="./chat_page.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+매력평가 하기
+<br/>
+<img
+  src="./attraction_rating_page2.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+친구 프로필 상세 페이지에서 매력 평가하기
+<br/>
+<img
+  src="./attraction_rating_detail_profile_page.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+매력평가할 프로필 대기상태
+<br/>
+<img
+  src="./attraction_rating_page_waiting2.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+불량유저 신고하기
+<br/>
+<img
+  src="./report_profile.jpg"
+  width="108"
+  height="234"
+/>
+<br/>
+
+채팅방 나가기
+<br/>
+<img
+  src="./chat_page_exit.jpg"
   width="108"
   height="234"
 />
