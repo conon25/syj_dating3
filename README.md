@@ -10,7 +10,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 />
 <br/>
 
-### 약관 동의
+### 서비스 약관 동의
 <br/>
 <img
   src="./agree_service.jpg"
