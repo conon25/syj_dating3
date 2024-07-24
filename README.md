@@ -2,7 +2,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ========================================================
 # 아키텍처
 <img
-  src="./소프트웨어 구성도2.jpg"
+  src="./소프트웨어 구성도2.png"
   width="900"
   height="450"
 />
