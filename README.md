@@ -282,7 +282,7 @@ syj_dating3 - Flutter app and spring-cloud micro services
 <br/>
 
 #### 관리자페이지가 임의 접근이 불가능하도록 적용되었는가?
-* 관리자 페이지 없음.
+* N/A
 
 <br/>
 
