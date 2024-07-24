@@ -4,8 +4,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 로그인
 <img
   src="./intro_login.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 
 #### 이메일 로그인
@@ -21,8 +21,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 
 <img
   src="./agree_service.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 
 #### 이메일로 프로필 생성하기
@@ -36,13 +36,13 @@ syj_dating3 - Flutter app and spring-cloud micro services
 
 <img
   src="./phone_check.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 <img
   src="./phone_check2.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 
 #### 인증코드 받기
@@ -55,8 +55,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 회원가입 사진등록
 <img
   src="./signup_reg_photo.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 사진 업로드하기
 * 카메라및 갤러리에서 사진을 선택하고 업로드합니다.
@@ -67,8 +67,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 내 프로필 설정 및 정보
 <img
   src="./my_profile.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 프로필 보기
 * 내 프로필을 조회하고 수정합니다.
@@ -82,8 +82,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 프로필 상세
 <img
   src="./profile.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 프로필 수정
 * 내 프로필을 조회하고 수정합니다.
@@ -93,8 +93,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 내 근처 친구찾기 리스트
 <img
   src="./around_list_page.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 위치 권한 허용 및 내 위치 lat long 가져오기
 * 위치 권한을 허용시 앱이 resume될 때 내 기기 위치의 lat long을 측정하고 서버에 저장합니다.
@@ -106,8 +106,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 프로필 선택 및 좋아요 보내기
 <img
   src="./profile_detail_sendlike.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 좋아요 보내기
 * 받은 좋아요 목록에 없는상대, 현재 채팅중이 아닌 상대, 보낸 좋아요 목록에 없는 상대 조건을 충족한 상대에게 Like를 보낼 수 있습니다.
@@ -118,8 +118,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 받은 좋아요 리스트
 <img
   src="./received_like2.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 좋아요 메시지 수신
 * 포그라운드 상태일때 socket연결을 통해 실시간으로 좋아요 메세지를 받습니다. 백그라운드 상태일때는 socket연결이 끊긴 상태이므로 앱이 resume 되면 DB에서 내역을 불러옵니다.
@@ -129,8 +129,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 좋아요 받기
 <img
   src="./receivelike.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 좋아요 받기
 * 좋아요를 수락하면 현재 대화중이 아닌 상대일 경우 채팅방을 생성합니다.
@@ -139,8 +139,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 채팅방 리스트와 채팅방 개설
 <img
   src="./chatroom_list.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 채팅방 생성
 * 채팅방 생성시 상대에게 socket 및 fcm을 통해 알림 메세지를 보냅니다.
@@ -149,8 +149,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 친구와 채팅
 <img
   src="./chat_page.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 채팅 데이터 송수신 및 이력 저장
 * 채팅방 입장시 socket연결을 수립하고 실시간으로 데이터를 송수신 합니다.
@@ -161,8 +161,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 채팅방 나가기
 <img
   src="./chat_page_exit.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 채팅방 나가기 메세지 전송
 * 채팅방에서 나가면 socket을 통해 퇴장 메시지를 전송하고 DB에 이력을 저장합니다.
@@ -177,8 +177,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 매력평가 탭
 <img
   src="./attraction_rating_page2.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 매력평가할 프로필 받기
 * 매시 정각에 내가 평가할 프로필이 새롭게 지정됩니다.
@@ -192,8 +192,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 친구 프로필 상세 페이지에서 매력 평가하기
 <img
   src="./attraction_rating_detail_profile_page.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 매력평가하기
 * rating bar 를 터치하여 매력을 평가합니다. socket연결을 통해 데이터를 전송하고 이력을 저장합니다.
@@ -202,8 +202,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 매력평가할 프로필 대기상태
 <img
   src="./attraction_rating_page_waiting2.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 프로필을 모두 평가했을때
 * 다음 정시가 될 때까지 남은시간을 표시합니다.
@@ -212,8 +212,8 @@ syj_dating3 - Flutter app and spring-cloud micro services
 ### 불량유저 신고하기
 <img
   src="./report_profile.jpg"
-  width="324"
-  height="702"
+  width="218"
+  height="468"
 />
 #### 신고 접수
 * 신고가 접수 되고 신고 내용을 기반으로 해당 사용자 서비스 제한을 검토합니다.
