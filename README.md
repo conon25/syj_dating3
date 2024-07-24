@@ -242,12 +242,12 @@ syj_dating3 - Flutter app and spring-cloud micro services
 <br/>
 
 #### Injection 공격이 불가능하도록 적용되었는가?
-* 서버에서 특수문자 일부 제외하고 모두 필터링 등 적용.
+* 서버에서 특수문자 필터링 등 적용.
 
 <br/>
 
 #### XSS(Cross Site Scripting) 공격이 불가능하도록 적용되었는가?
-* 입력값 특수문자 일부 제외하고 모두 필터링 등 적용.
+* 입력값 특수문자 필터링 등 적용.
 
 <br/>
 
