@@ -216,4 +216,4 @@ syj_dating3 - Flutter app and spring-cloud micro services
   height="468"
 />
 #### 신고 접수
-* 신고가 접수 되고 신고 내용을 기반으로 해당 사용자 서비스 제한을 검토합니다.
+* 신고가 접수 되고 해당 사용자에 서비스를 제한할 수 있습니다.
